@@ -6,7 +6,7 @@ Let's outline a project for you to work on using Matplotlib and Seaborn. We'll c
 
 Analyze and visualize air quality data to understand trends, distributions, and relationships between different pollutants and weather conditions.
 
-#### Dataset:
+#### Dataset:outline
 
 We'll use a hypothetical dataset named `air_quality.csv` with the following columns:
 
