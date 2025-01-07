@@ -1,5 +1,5 @@
-import matplotlib.pyplot as plt
-import seaborn as sns
+import matplotlib.pyplot as plt # type: ignore
+import seaborn as sns # type: ignore
 import numpy as np
 import pandas as pd
 
