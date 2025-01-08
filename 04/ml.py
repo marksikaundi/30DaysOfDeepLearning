@@ -36,3 +36,9 @@ y_pred = model.predict(X_test)
 # Calculate Mean Squared Error
 mse = mean_squared_error(y_test, y_pred)
 print(f"Mean Squared Error: {mse}")
+
+# Display the coefficients of the model
+print(f"Coefficients: {model.coef_}")
+
+# Save the model to a file using csv format
+np.savetxt("./models/model.csv", model.coef_, delimiter=",")
