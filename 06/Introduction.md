@@ -1,4 +1,4 @@
-Let's go through the steps to implement a logistic regression model using Scikit-Learn and evaluate its performance. We'll use a simple dataset for this purpose, such as the Iris dataset, which is commonly used for classification tasks.
+Basic steps to implement a Logistic Regression model using Scikit-Learn and evaluate its performance. We'll use a simple dataset for this purpose, such as the Iris dataset, which is commonly used for classification tasks.
 
 ### Step 1: Import Libraries
 
@@ -7,7 +7,7 @@ First, we need to import the necessary libraries.
 ```python
 import numpy as np
 import pandas as pd
-from sklearn.datasets import load_iris
+from sklearn.datasets import load_iris # From public datasets imports
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
