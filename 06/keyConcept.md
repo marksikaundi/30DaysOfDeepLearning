@@ -1,4 +1,4 @@
-Let's break down these key concepts to provide a clearer understanding:
+Key concepts to provide a clearer understanding:
 
 ### Classification Models
 
