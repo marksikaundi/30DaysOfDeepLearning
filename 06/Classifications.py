@@ -37,17 +37,12 @@ class_report = classification_report(y_test, y_pred, target_names=iris.target_na
 print('Classification Report:')
 print(class_report)
 
-# Generate classification report
+# Generate classification report as a dictionary
 class_report = classification_report(y_test, y_pred, target_names=iris.target_names, output_dict=True)
 print('Classification Report:')
 print(class_report)
 
-# save the report to csv file
-# report = pd.DataFrame(class_report).transpose()
-# report.to_csv('classification_report.csv', index=False)
-# print('Classification Report saved to classification_report.csv')
-
-# save the report to csv file
+# Save the report to csv file
 report = pd.DataFrame(class_report).transpose()
 report.to_csv('./reports/classification_report.csv', index=False)
 print('Classification Report saved to classification_report.csv')
