@@ -1,4 +1,4 @@
-Data preprocessing is a crucial step in the data analysis and machine learning pipeline. It involves transforming raw data into a format that is more suitable for analysis and modeling. Common preprocessing techniques include scaling, normalization, and encoding. Below, I'll explain these techniques and provide example code for each.
+Data preprocessing is a crucial step in the data analysis and machine learning pipeline. It involves transforming raw data into a format that is more suitable for analysis and modeling. Common preprocessing techniques include scaling, normalization, and encoding. Below, are techniques and provide example code for each.
 
 ### 1. Scaling
 
