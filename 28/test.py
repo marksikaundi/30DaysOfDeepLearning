@@ -6,5 +6,5 @@ test_data = {
 }
 
 # Make prediction request
-response = requests.post("http://localhost:9000/predict", json=test_data)
+response = requests.post("http://localhost:8000/predict", json=test_data)
 print(response.json())
