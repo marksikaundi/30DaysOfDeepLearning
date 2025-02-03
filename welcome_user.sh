@@ -23,7 +23,7 @@ welcome_message = f"""
 
 Welcome, {name}!
 
-We're thrilled to have you here. Enjoy your time exploring the world of Python and shell scripting!
+We're thrilled to have you here. Enjoy your time exploring the world of Deep Learning and shell scripting!
 
 """
 
